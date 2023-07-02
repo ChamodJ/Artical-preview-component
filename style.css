@@ -77,7 +77,43 @@ body {
     border-radius: 50%;
 }
 
-.share-img ion-icon:hover {
+.share-img ion-icon:focus, .share-img ion-icon:hover {
     background-color: hsl(217, 19%, 35%);
     color: hsl(210, 46%, 95%);
+}
+
+.share-options-div {
+    background-color: hsl(217, 19%, 35%);
+    width: 160px;
+    position: absolute;
+    top: 50%;
+    right: 20%;
+    left: 68%;
+    border-radius: 10px;
+    padding: 0 15px;
+    color: hsl(212, 23%, 69%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transform: scale(0);
+}
+
+.share-options-div p{
+    text-align: center;
+}
+
+.share-options-div img {
+    width: 15px;
+    height: 15px;
+}
+
+.option-active {
+    transform: scale(1);
+}
+
+.share-options-div ion-icon {
+    width: 20px;
+    height: 20px;
+    color: white;
+    cursor: pointer;
 }
