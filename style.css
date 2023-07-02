@@ -66,3 +66,17 @@ body {
     font-size: 1em;
     font-weight: 400;
 }
+
+.share-img ion-icon {
+    width: 20px;
+    height: 20px;
+    color: hsl(217, 19%, 35%);
+    padding: 5px;
+    background-color: hsl(210, 46%, 95%);
+    border-radius: 50%;
+}
+
+.share-img ion-icon:hover {
+    background-color: hsl(217, 19%, 35%);
+    color: hsl(210, 46%, 95%);
+}
