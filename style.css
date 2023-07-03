@@ -126,8 +126,6 @@ body {
 @media only screen and (max-width: 600px) {
     .main-div {
         flex-direction: column;
-        
-        
         max-height: 700px;
         max-width: 80vw;
     }
