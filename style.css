@@ -124,14 +124,18 @@ body {
 /*----------------Media Quary---------------------------------*/
 
 @media only screen and (max-width: 600px) {
+
+    body {
+        max-width: 100%;
+    }
     .main-div {
         flex-direction: column;
         max-height: 700px;
-        max-width: 80vw;
+        max-width: 340px;
     }
 
     .main-img {
-        width: 80vw;
+        width: 340px;
         height: 30vh;  
     }
 
@@ -148,4 +152,18 @@ body {
         margin-bottom: 20px;
     }
     
+    .share-options-div {
+        background-color: hsl(217, 19%, 35%);
+        min-width: 300px;
+        position: none;
+        top: unset;
+        right: 5vw;
+        left: unset;
+        transform: scale(0);
+    }
+
+    .option-active {
+        transform: scale(1);
+        z-index: 1;
+    }
 }
